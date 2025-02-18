@@ -1,7 +1,6 @@
 export default function cardValidation(input) {
   const firstDigit = +input.charAt(0);
   const firstTwoDigits = +input.slice(0, 2);
-  const firstThreeDigits = +input.slice(0, 3);
   const firstFourDigits = +input.slice(0, 4);
   const length = +input.length;
 
